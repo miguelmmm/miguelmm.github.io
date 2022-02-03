@@ -1,0 +1,322 @@
+/*GENERAL*/
+body{
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(207, 219, 235);
+}
+main{
+    width: 70%;
+    margin: auto;
+    padding-top: 6rem;
+}
+
+h1,h2,h3,h4{
+    font-family: 'MuseoModerno', cursive;
+}
+
+/*INICIO*/
+header{
+    display: flex;
+    background-color: rgb(107, 179, 226);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(58, 98, 124);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 29px -1px rgba(0,0,0,0.25); 
+    box-shadow: inset 0px 0px 29px -1px rgba(0,0,0,0.25); 
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    color: rgb(31, 49, 63);
+    font-weight: bold;
+    border-right: 2px solid rgb(13, 66, 102);
+}
+
+nav a:hover{
+    text-decoration: underline 1px;
+}
+a.sinbarra{
+    border: 0px;
+}
+#logo{
+    width: 4rem;
+    padding-left:1.5rem;
+}
+#lupa{
+    width: 1.5rem;
+    padding-left:0.2rem;
+}
+#buscador{
+    display: flex;
+    padding-right:1.5rem;
+
+}
+#buscador input{
+    border-radius: 20px;
+    border: 2px solid rgb(42, 67, 87);
+    background-color: rgb(119, 198, 250);
+    font-family: inherit;
+}
+
+/*INDICE*/
+summary:hover{
+    cursor: pointer;
+}
+#indice{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.4rem;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 0px 0px 29px -1px rgba(0,0,0,0.25); 
+    box-shadow: inset 0px 0px 29px -1px rgba(0,0,0,0.25); 
+    border-radius: 20px;
+    padding: 2rem;
+}
+#indice details{
+    padding-bottom: 3rem;
+    font-size: 2rem;
+}
+#mac{
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+#mac img{
+    width: 100%;
+    min-width: 200px;
+}
+#desplegables{
+    display: inline-block;
+    width: 30%;
+    font-size: 1rem;
+}
+summary{
+    font-size: 1.8rem;
+}
+.realizacion{
+    text-align: center;
+    margin-bottom: 17rem;
+}
+
+/*ESTETICA*/
+.todosDivs{
+    -webkit-box-shadow: 0px 0px 29px -1px rgba(0,0,0,0.25); 
+    box-shadow: inset 0px 0px 29px -1px rgba(0,0,0,0.25); 
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.prueba{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mitad{
+    display: flex;
+    width: 103%;
+}
+
+/*ALVARO*/
+.fuente{
+    font-size: 1.2rem;
+}
+.titulo2{
+    font-size: 2.5rem;
+    text-align: center;
+    border-bottom: 1px solid rgb(58, 98, 124);
+    width: 102%;
+}
+#titulo_tabla{
+    text-align: center;
+}
+.subtitulo2{
+    font-size: 1.5rem;
+}
+
+#seguridad{
+    width: 25%;
+    min-width: 200px;
+    border-radius: 10px;
+    float: right;
+}
+#derecha{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#diseño figure{
+    float: right;
+    text-align: center;
+    background-color: rgb(107, 179, 226);
+    padding: 1rem;
+    border-radius: 20px;
+}
+#portatil{
+    width: 22rem;
+}
+#diseño2{
+    display: flex;
+}
+#diseño2 figcaption{
+    padding-top: 0.6rem;
+    font-weight: bold;
+}
+
+#sincronizacion img{
+    width: 40%;
+    border-radius: 14px;
+}
+#sincronizacion{
+    display: flex;
+    justify-content: center;
+}
+
+#tabla{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.titular{
+    background-color: rgb(107, 179, 226);
+}
+th{
+    border: 1px solid rgb(31, 49, 63);
+    background-color: rgb(107, 179, 226);
+}
+td{
+    border: 1px solid rgb(31, 49, 63);
+    border-collapse: collapse;
+}
+
+dt{
+    font-weight: bold;
+}
+td:not([class]){
+    background-color: rgb(231, 231, 231);
+}
+
+/*FOOTER*/
+footer{
+    position: relative;
+    align-items: flex-end;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 0px 0px 29px -1px rgba(0,0,0,0.25); 
+    box-shadow: inset 0px 0px 29px -1px rgba(0,0,0,0.25); 
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    border-right: 2px solid rgb(150, 150, 150);
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+.politica{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+footer a:nth-last-child(1){
+    border: none;
+}
+footer img{
+    width: 2%;
+    min-width: 10px;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+.logoFooter{
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+footer a:hover{
+    background-color: white;
+    color: rgb(150, 150, 150);
+}
+/*MIGUEL*/
+.titulo_venta{
+    text-align: center;
+}
+.cuerpo_miguel{
+    text-align: center;
+}
+.mac_ventajas img{
+    width: 50%;
+}
+.windows_desve{
+    display: flex;
+    justify-content: center;
+}
+.windows_desve img{
+    width: 50%;
+}
+.windows_foto  img{
+    width: 50%;
+}
+
+.cpu_img img{
+    width: 30%;
+}
+.principal_mac{
+    display: flex;
+    justify-content: center;
+}
+.principal_mac img{
+    width: 75%;
+}
+.mac_desventajas{
+    display: flex;
+    justify-content: center;
+}
+.mac_desventajas figure{
+    float: right;
+    text-align: center;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 30px;
+}
+.mac_desventajas figure{
+    font-size: large;
+    color: white;
+    font-size: bold;
+}
+.mac_desventajas img{
+    width: 75%;
+}
+
+
+/*JUANITO*/
+.cincuenta{
+    display: flex;
+    width: 103%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cincuenta img{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 40% ;
+    min-width: 200px;
+}
+.cincuenta p{
+    width: 30%;
+    font-size: 1.2rem;
+}
